@@ -1,0 +1,51 @@
+# Environment files (contain sensitive credentials)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Backend service account (contains private keys)
+backend/serviceAccount.json
+
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Build outputs
+dist/
+build/
+backend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
